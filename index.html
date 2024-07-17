@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Ayush">
+   <meta name="keywords" content=" Blog Post Website">
+   <meta name="description" content="Knowledge of new places">
+   <!-- meta tags end -->
+   <title>Travel Blog</title>
+   <!-- link to css  -->
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <!-- icon font link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <!-- google font link  -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!-- navigaction bar -->
+  <nav>
+         <img src="images/tour.jpeg" alt="logo" width="20%" height="80px"> 
+        <label class="logo">Ayush Blog's</label>
+        <ul class="sidebar">
+         <li onclick=hideSidebar()><a href="#home #about #contact #blog 1 #blog 2 #blog 3"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>   
+         <li><a href="#home" ><B> Home</B></a></li>
+         <li><a href="#about" ><b>  About</b></a></li>
+         <li><a href="#contact" ><b> Contact Me</b></a></li>
+         <li>
+            <label for="btn-1" class="show"></label>
+            <input type="checkbox" id="btn-1">
+             <a href="#Blog's"><b>Blog's</b></a>
+             <ul>
+                 <li><a href="#blog 1" ><b> kasmir</b></a></li>
+                 <li><a href="#blog 2" ><b> Kota</b></a></li>
+                 <li><a href="#blog 3" ><b> Jaipur</b></a></li>
+             </ul>
+         </li> 
+        </ul>
+         <ul class="main-menu">
+            <li class="hideOnMobile"><a href="#home"><b>Home</b></a></li>
+            <li class="hideOnMobile"><a href="#about"><b>About</b></a></li>
+            <li class="hideOnMobile"><a href="#contact"><b>Contact Me</b></a></li>
+            <li class="hideOnMobile">
+                <a href="#Blog's"><b>Blog's</b></a>
+                <ul>
+                    <li><a href="#blog 1"><b>Kashmir</b></a></li>
+                    <li><a href="#blog 2"><b>Kota</b></a></li>
+                    <li><a href="#blog 3"><b>Jaipur</b></a></li>
+                </ul>
+            </li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+  </nav>  
+  
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+<hr/>
+<hr/>
+<br/>
+    <!-- Header start -->
+    <div class="head">
+        <div id="home"border="1" width="100%">
+                        <h1>My Travel Blog</h1>
+                        <br/>
+                        <p>Welcome to my blog! Whether you're a seasoned adventurer or an armchair traveler with wanderlust, pull up a seat and join me on my global explorations.  This space is dedicated to sharing the unforgettable experiences, cultural insights, and practical tips I've gathered on my journeys.  So, grab your metaphorical passport and get ready to embark on exciting adventures around the world!</p>
+                        <br/>
+                        <br/>
+                        <img src="images/TRavel solo.png" alt="travel" height="300" width="1000">
+                        <br/>
+                        <br/>
+                        <p>Sharing the world through my eyes, one trip at a time. This blog is all about my adventures, big and small. Come along as I explore new places, cultures, and foods!</p>
+        </div>  
+    </div>   
+<hr/> 
+<hr/>
+<!-- blog's (start)     -->
+<div class=" card-container">
+    <div class="card">
+        <!-- blog 1 (start) -->
+         <div id="blog 1" width="100%">               
+                <h1> <strong> Blog 1 :- </strong></h1>  
+                    <h2> My Adventure in Kasmir </h2>
+                        <div class="card-content"> 
+                            <img src="images/kasmir.jpg" alt="My pic" height="400" width="1000">
+                            <br/>
+                                <h3>Welcome, thrill-seekers! Kashmir, India's crown jewel, awaits!</h3>
+                                <br/>
+                                <table>
+                                     <tr>
+                                        <td> 
+                                          <ul>
+                                            <li><p><b>Shikara Bliss:</b> My adventure began with a peaceful shikara ride on Dal Lake, soaking in the stunning scenery.</p></li>
+                                            <li><p><b>Pahalgam Trek:</b> Lush meadows, cascading waterfalls, and breathtaking views filled my Pahalgam trek.</p></li>
+                                            <!-- <a href="#" class="btn">Read More</a> -->
+                                            <li><p><b>Indus Rafting: </b>The mighty Indus River provided an unforgettable whitewater rafting adventure.</p></li>
+                                            <li><p><b>Starry Nights: </b>Camping under a blanket of stars in Nubra Valley was pure magic.</p></li>
+                                            <li><p><b>Cultural Gems: </b>Ancient temples, bustling bazaars, and delicious Kashmiri cuisine rounded out the trip.</p></li>
+                                         </ul>
+                                        </td>
+                                    </tr>
+                                 </table>
+                                 <br/>
+                                 <img src="images/OIP.jpeg" alt="My pic" height="400" width="1000">
+                                 <br/>
+                                  <h3>Kashmir: A Land of Many Stories</h3>
+                                  <br/>
+                                  <p>This blog acknowledges that Kashmir's beauty is intertwined with a complex history. We'll approach the topic with sensitivity, providing resources for those who want to learn more.</p>
+                                  <br/>
+                                  <p>Join this blog and embark on a virtual exploration of Kashmir. By the end, you'll be ready to plan your own unforgettable adventure to this land of unparalleled beauty and cultural richness.</p>
+                                  <br/>
+                                  <p>Kashmir offers something for everyone. Stay tuned for deeper dives into each adventure and tips for planning your own Kashmiri escape!</p>
+                                         <video controls autoplay muted loop="video/176488-855568259_tiny.mp4" width="400" height="200">
+                                          <source src="video/176488-855568259_tiny.mp4">
+                                         </video>
+                                         <br/>
+                                         <h3>Kashmir's Rich Tapestry: A Respectful Approach</h3>
+                                         <br/>
+                                         <p>Kashmir's beauty is undeniably captivating, but it's a region steeped in complex history. We acknowledge this with sensitivity and provide resources for those who want to learn more.</p>
+                                         <br/>
+                                         <p>So, pack your bags (whether it's a backpack for adventure or a suitcase for a luxurious escape) and get ready for an experience that will leave you mesmerized. This blog will be your one-stop shop for planning your dream Kashmiri escape!</p>
+                                         
+                        </div>   
+         </div>  
+    </div> 
+            <!-- blog 2 (start) -->                           
+            <div class="card">
+                <div id="blog 2" width="100%">    
+                      <h1> <strong> Blog 2 :- </strong></h1>
+                       <h2> Story Of Kota</h2>
+                       <div class="card-content"> 
+                        <img src="Images/Story-of-Kota-900x600-1.jpg" alt="My pic" height="400" width="1000">
+                          <h3>Kota Chronicles: Dreams & Pressure</h3>
+                          <br/>
+                          <p>Kota beckons ambitious teens seeking entry into India's top engineering and medical colleges. This blog dives into their world – the relentless pursuit of excellence, the grind of coaching classes, and the pressure that shapes (and sometimes strains) them.</p>
+                          <p>Here, we'll explore the student experience: the daily grind, the friendships forged, and the coping mechanisms developed. We won't shy away from the challenges: the stress, anxiety, and mental health concerns.</p>
+                          <img src="Images/Things-to-Do-in-Kota-1024x1024.jpg" alt="My pic" height="400" width="900">
+                          <h3>Unveiling Kota: A City Beyond Coaching Institutes</h3>
+                          <br/>
+                          <p>While Kota is synonymous with India's competitive coaching culture, this dynamic city unveils a hidden charm to discerning travelers.  Look beyond the academic realm and discover a treasure trove of historical sites, vibrant culture, and natural wonders.</p>
+                          <h2>Embrace Nature's Bounty:</h2>
+                          <h3>Chambal Gardens:</h3>
+                          <br/>
+                          <p>Seek tranquility in the sprawling Chambal Gardens, a haven for nature lovers. Take a leisurely stroll amidst lush greenery or enjoy a boat ride on the serene Chambal River.</p>
+                           <p>This blog delves deeper than just a list of attractions. We'll provide insightful details, historical anecdotes, and practical travel tips to ensure you have a fulfilling Kota experience.</p>
+                            <video controls autoplay muted loop="video/mixkit-audience-raise-hands-at-business-conference-13192-hd-ready.mp4" width="400" height="200">
+                              <source src="video/mixkit-audience-raise-hands-at-business-conference-13192-hd-ready.mp4">
+                            </video>
+                            <br/>
+                            <p>Join us for an honest look at Kota Chronicles – a story of dreams, pressure, and the pursuit of excellence.</p>
+                        </div>
+                </div>       
+            </div>
+                                        
+        <!-- blog 3 (start) -->
+        <div class="card">
+          <div id="blog 3" width="100%">                
+                <h1> <strong> Blog 3 :- </strong></h1>
+                        <h2> Pink City </h2>
+                            <div class="card-content"> 
+                                <img src="images/fact of jaipur.jpeg" alt="My pic" height="200" width="900">
+                                     <h3>Jaipur: A Journey Through the Pink City's History, Bustle, and Beauty</h3>
+                                     <p>Jaipur, the captivating capital of Rajasthan, India, is a city that explodes with color, culture, and a rich historical tapestry. Often referred to as the "Pink City" due to the iconic rose-hued sandstone buildings lining its streets, Jaipur offers an unforgettable experience for travelers seeking a glimpse into India's vibrant past and energetic present.</p>
+                                    <img src="images/jaipur place.jpeg" alt="My pic" height="400" width="1000">
+                                       <h3>Jaipur After Dark</h3>
+                                       <p>As the sun sets, Jaipur takes on a different charm. Enjoy a rooftop dinner overlooking the illuminated Hawa Mahal, or immerse yourself in a traditional Rajasthani folk music and dance performance at Chokhi Dhani, a cultural village that recreates the bygone era.</p>
+                                             <video controls autoplay muted loop="video/jaipur.mp4" width="400" height="200">
+                                              <source src="video/jaipur.mp4">
+                                             </video>
+                                                <h3>A Pink City Adventure Awaits</h3>
+                                                  <p>Jaipur is a city that caters to every kind of traveler. Whether you're a history enthusiast, a shopaholic, a foodie, or simply someone seeking an off-the-beaten-path adventure, the Pink City has something to offer. So pack your bags, embrace the chaos and the colors, and get ready to be enchanted by the magic of Jaipur!</p>
+                             </div>                                    
+             </div>
+            </div>  
+</div>
+ <hr/> 
+ <hr/> 
+ <!-- About (start) -->    
+ <div class="about1">
+    <div id="about"border="1" width="100%">
+        <h1 id="my"> About Me </h1>
+            <img src="Images/About me.jpg" alt="My pic" height="300" width="300">
+            <br/>
+            <p>Thanks for your interest, here is a quick story of me and this website.</p>
+            <br/>
+            <p>Ayush Namdeo A LNCT Bhopal student and Mca student. He loves to solve programming problems in most efficient ways. Apart from programming, He loves playing chess and badminton .Creativity is the subject of keen interest for him.</p>
+            <br/>
+            <p>This website is basically one of my Web Development project which is built using HTML only. Here one can also find ideas for projects in different languages. Thanks again for reading this, because of people like you, it exists and prospers!</p>
+            <p>Cheers,</p>
+            <br/>
+            <h3>Ayush Namdeo</h3>
+    </div>
+ </div> 
+ <hr/>
+ <hr/>
+      <!-- Contact (start) -->
+       <div class="contactme">
+            <div id="contact"border="1" width="100%">
+              <main class="row">
+               <!-- Left Section (Column) Starts -->
+                <section class="col left"> 
+                    <!--Title Starts -->
+                    <div class="contactTitle">
+                        <h2>Get In Touch</h2>
+                        <p>Have a question or request? We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+                    </div>
+    
+                    <!--Contact Info Starts-->
+                    <div class="contactInfo">
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fas fa-phone-square-alt"></i>
+                            </div>
+                            <div class="details">
+                                <span>Phone</span>
+                                <span>8529792156</span>
+                            </div>
+                        </div>
+                
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="details">
+                                <span>Email</span>
+                                <span>namdeoayush62@gmail.com</span>
+                            </div>
+                        </div>
+                
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <div class="details">
+                                <span>Location</span>
+                                <span>Rewa (M.P.)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Contact Info Ends-->
+                
+                    <!--Social Media Starts-->
+                    <div class="socialMedia">
+                        <a href="https://github.com/Ayushgreat"><i class="fab fa-github"></i></a>
+                        <a href="mailto:namdeoayush62@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/ayush-namdeo-509889241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </section>
+                    <!--Social Media Ends-->
+                <!--Right Section (Column) Starts-->
+                <section class="col right"> 
+                    <!--Form Starts-->
+                    <form class="messageForm"> 
+                        <div class="inputGroup halfWidth">
+                            <input type="text" name="name" required="required">
+                            <label>Your Name</label>
+                        </div>
+                        <div class="inputGroup halfWidth">
+                            <input type="email" name="email" required="required">
+                            <label>Email</label>
+                        </div>
+                        <div class="inputGroup fullWidth">
+                            <input type="text" name="subject" required="required">
+                            <label>Subject</label>
+                        </div>
+                        <div class="inputGroup fullWidth">
+                            <textarea name="message" required="required"></textarea>
+                            <label>Say Something</label>
+                        </div>
+                        <div class="inputGroup fullWidth">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                    <!--Form Ends-->
+                </section>
+                <!--Right Section (Column) Ends-->
+             </main>
+            </div> 
+        </div>
+       <hr/>  
+        <hr/>
+               <!--Footer1(start)-->
+               <footer class="foot">
+                Copyright©2024 My Travel Blog
+            </footer>
+      
+</body>
+</html>
